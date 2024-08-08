@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald'
+}
+
+
+.contact-info {
+    text-align: left;
+    display: flex;
+  align-items: center;
+  background-color: #C3E92D;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    padding-left: 2%;
+    display: inline-block;
+  margin-right: 20px;
+  color: #000;
+}
+
+.contact-info a {
+    color: #000;
+}
+.titel {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 2%;
+  }
+  
+  .titel p {
+    color: #C3E92D;
+    font-size: x-large;
+  }
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 0.5%; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+nav ul li a {
+    color: #C3E92D;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+  .login {
+    float: right;
+    border: 0;
+    line-height: 1.5;
+    padding: 0 10px;
+    font-size: x-large;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #C3E92D;
+  }
+
+.homepage {
+    background: url('/Images/Afbeelding1.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: left;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homepage h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.homepage p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
